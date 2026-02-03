@@ -1,5 +1,11 @@
-table, th, td {
+table,
+th,
+td {
   border: 1px solid;
+}
+
+.default-body {
+  background-color: rgb(238, 247, 187);
 }
 
 .job-option {
@@ -8,7 +14,7 @@ table, th, td {
   margin-bottom: 10px;
 }
 
-.job-option input[type='radio'] {
+.job-option input[type="radio"] {
   margin-right: 10px;
 }
 
@@ -17,14 +23,20 @@ table, th, td {
 }
 
 .large-text-wrap {
-  inline-size: 500px; 
+  inline-size: 500px;
 }
 
 /* TODO: Add your primary and secondary styling below! */
 .primary-button {
-
+  background-color: khaki;
+  border-style: double;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .secondary-button {
-  
+  background-color: beige;
+  border-style: double;
+  border-radius: 5px;
+  padding: 10px;
 }
